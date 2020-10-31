@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>MusHotels &mdash; Your favourite and smart booking app</title>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <img src="img/logo.svg" alt="Trillo logo" class="logo">
+
+        <form action="#" class="search">
+            <input type="text" class="search__input" placeholder="Search hotels">
+            <button class="search__button">
+                <svg class="search__icon">
+                    <use xlink:href="img/icon-sprite.svg#magnifying-glass"></use>
+                </svg>
+            </button>
+        </form>
+        <nav class="user-nav">
+            <div class="user-nav__icon-box">
+                <svg class="user-nav__icon">
+                    <use xlink:href="img/icon-sprite.svg#bookmark-black-shape"></use>
+                </svg>
+                <span class="user-nav__notification">4</span>
+            </div>
+            <div class="user-nav__icon-box">
+                <svg class="user-nav__icon">
+                    <use xlink:href="img/icon-sprite.svg#speech-bubbles-comment-option"></use>
+                    <span class="user-nav__notification">16</span>
+                </svg>
+            </div>
+            <div class="user-nav__user">
+                <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
+                <span class="user-nav__username">Mikhail</span>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <nav class="sidebar">
+            <ul class="side-nav">
+                <li class="side-nav__item side-nav__item--active">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/icon-sprite.svg#home"></use>
+                        </svg>
+                        <span>Hotel</span>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/icon-sprite.svg#plane"></use>
+                        </svg>
+                        <span>Flight</span>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/icon-sprite.svg#road-perspective"></use>
+                        </svg>
+                        <span>Car rental</span>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/icon-sprite.svg#earth-globe"></use>
+                        </svg>
+                        <span>Tours</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="legal">
+                &copy; 2020 by Mishka Mustonen. Designed by Jonas Schmedtmann.
+            </div>
+        </nav>
+        <main class="hotel-view">
+            <div class="gallery">
+                <figure class="gallery__item">
+                    <img src="img/hotel-1.jpg" alt="Hotel 1 photo" class="gallery__photo">
+                </figure>
+                <figure class="gallery__item">
+                    <img src="img/hotel-2.jpg" alt="Hotel 2 photo" class="gallery__photo">
+                </figure>
+                <figure class="gallery__item">
+                    <img src="img/hotel-3.jpg" alt="Hotel 3 photo" class="gallery__photo">
+                </figure>
+            </div>
+
+            <div class="overview">
+                <h1 class="overview__heading">Hotel Sunny Shiney</h1>
+                <div class="overview__stars">
+                    <svg class="overview__icon-star">
+                        <use xlink:href="img/icon-sprite.svg#star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                        <use xlink:href="img/icon-sprite.svg#star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                        <use xlink:href="img/icon-sprite.svg#star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                        <use xlink:href="img/icon-sprite.svg#star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                        <use xlink:href="img/icon-sprite.svg#star"></use>
+                    </svg>
+                </div>
+                <div class="overview__location">
+                    <svg class="overview__icon-location">
+                        <use xlink:href="img/icon-sprite.svg#map-marker"></use>
+                    </svg>
+                    <button class="btn-inline">Santorini, Greece</button>
+                </div>
+                <div class="overview__rating">
+                    <div class="overview__rating-average">8.6</div>
+                    <div class="overview__rating-count">347 votes</div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="description">
+                    <p class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Ab ad beatae, debitis, est eum labore laboriosam nesciunt
+                        obcaecati quis.Accusantium cumque, quas, ut corporis incidunt
+                        deserunt quae architecto voluptate delectus, inventore iure
+                        aliquid aliquam.
+                    </p>
+                    <p class="paragraph">
+                        Odio ratione saepe tenetur. A consequatur
+                        cum delectus ducimus eum excepturi
+                        incidunt laborum, magnam minus neque reprehenderit vel!
+                    </p>
+                    <ul class="list">
+                        <li class="list__item">Close to the beach</li>
+                        <li class="list__item">Dinner included</li>
+                        <li class="list__item">3 swimming pools</li>
+                        <li class="list__item">Free wi-fi and TV</li>
+                        <li class="list__item">Air conditioning and heating</li>
+                        <li class="list__item">Pets are not allowed</li>
+                        <li class="list__item">We speak all languages</li>
+                        <li class="list__item">Perfect for young couples</li>
+                    </ul>
+                    <div class="recommend">
+                        <p class="recommend__count">
+                            Ann and 3 other friends recommend this hotel.
+                        </p>
+                        <div class="recommend__friends">
+                            <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                            <img src="img/user-4.jpg" alt="Friend 2" class="recommend__photo">
+                            <img src="img/user-5.jpg" alt="Friend 3" class="recommend__photo">
+                            <img src="img/user-6.jpg" alt="Friend 4" class="recommend__photo">
+                        </div>
+                    </div>
+                </div>
+                <div class="user-reviews">
+                    <figure class="review">
+                        <blockquote class="review__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias,
+                            aliquid asperiores dolore doloremque ducimus eius in, inventore itaque
+                            similique soluta vel velit voluptate.
+                        </blockquote>
+                        <figcaption class="review__user">
+                            <img src="img/user-1.jpg" alt="User 1" class="review__photo">
+                            <div class="review__user-box">
+                                <p class="review__user-name">John Doe</p>
+                                <p class="review__user-date">Sep 15, 2020</p>
+                            </div>
+                            <div class="review__rating">8.2</div>
+                        </figcaption>
+                    </figure>
+                    <figure class="review">
+                        <blockquote class="review__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                            doloremque architecto dicta animi, totam, itaque officia ex.
+                        </blockquote>
+                        <figcaption class="review__user">
+                            <img src="img/user-2.jpg" alt="User 2" class="review__photo">
+                            <div class="review__user-box">
+                                <p class="review__user-name">Steve Lopenz</p>
+                                <p class="review__user-date">Aug 27, 2019</p>
+                            </div>
+                            <div class="review__rating">9.0</div>
+                        </figcaption>
+                    </figure>
+                    <button class="btn-inline">See more <span>&rarr;</span></button>
+                </div>
+            </div>
+            <div class="cta">
+                <h2 class="cta__book-now">
+                    Good news! We have 3 room available for selected dates!
+                </h2>
+                <button class="btn">
+                    <span class="btn__visible">Book Now</span>
+                    <span class="btn__invisible">Only 3 rooms left</span>
+                </button>
+            </div>
+        </main>
+    </div>
+</div>
+</body>
+</html>
